@@ -1,0 +1,5 @@
+if(EXISTS "C:/software/odevler/ce204-1/ce205-yusufislam-kacar-firat-atalay/build_win/src/tests/calculator/calculator_tests[1]_tests.cmake")
+  include("C:/software/odevler/ce204-1/ce205-yusufislam-kacar-firat-atalay/build_win/src/tests/calculator/calculator_tests[1]_tests.cmake")
+else()
+  add_test(calculator_tests_NOT_BUILT calculator_tests_NOT_BUILT)
+endif()
